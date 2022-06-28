@@ -86,3 +86,5 @@ zegobird:
     omskey: OMSKEY
   product:
     pushingProductCron: ${ZEGOBIRD.PRODUCT.PUSHINGRESULTCRON:0 0 0/1 * * ?}
+  producttype:
+    pullProducttypeCron: ${ZEGOBIRD.PRODUCTTYPE.PULLPRODUCTTYPECRON:0 0 0 * * ?}
