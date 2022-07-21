@@ -44,7 +44,7 @@ spring:
   redis:
     url: redis://192.168.10.116:6379
     database: 1
-    timeout: 20000
+    timeout: 300000
 eureka:
   instance:
     ip-address: 192.168.10.125
